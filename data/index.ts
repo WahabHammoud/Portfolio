@@ -50,7 +50,7 @@ export const gridItems = [
   {
     id: 5,
     title: "🏆 2 National Hackathon Awards",
-    description: "RamadanIA National Finalist · FEECRA Best Entrepreneurial Potential · Université de Lorraine 2025",
+    description: "• RamadanIA — National Finalist, Rabat 2026\n• FEECRA 2025 — Best Entrepreneurial Potential",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",

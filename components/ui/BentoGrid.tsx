@@ -121,16 +121,29 @@ export const BentoGridItem = ({
           )}
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
-            {description}
-          </div>
-          {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
-          {/* remove mb-2 mt-2 */}
-          <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-          >
-            {title}
-          </div>
+          {id === 5 ? (
+            <>
+              <div className="font-sans text-2xl font-bold text-white z-10 mb-4">
+                {title}
+              </div>
+              <div className="font-sans text-sm text-[#C1C2D3] z-10 flex flex-col gap-3">
+                {description.split('•').filter(item => item.trim()).map((bullet, index) => (
+                  <p key={index}>•{bullet.trim()}</p>
+                ))}
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+                {description}
+              </div>
+              {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
+              {/* remove mb-2 mt-2 */}
+              <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}>
+                {title}
+              </div>
+            </>
+          )}
 
           {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
