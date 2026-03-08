@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My Tech Stack",
-    description: "I constantly work with Python, LangChain, Docker, and more",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Currently accepting first projects at introductory rates — client testimonials coming soon.",
-    name: "Your name could be here",
-    title: "Future client",
+      "Accepting first projects at special introductory rates. I deliver production-ready AI systems — not prototypes. Let's build something that works.",
+    name: "Could this be you?",
+    title: "Reach out and let's talk",
   },
   {
     quote:
-      "Currently accepting first projects at introductory rates — client testimonials coming soon.",
-    name: "Your name could be here",
-    title: "Future client",
+      "Accepting first projects at special introductory rates. I deliver production-ready AI systems — not prototypes. Let's build something that works.",
+    name: "Could this be you?",
+    title: "Reach out and let's talk",
   },
   {
     quote:
-      "Currently accepting first projects at introductory rates — client testimonials coming soon.",
-    name: "Your name could be here",
-    title: "Future client",
+      "Accepting first projects at special introductory rates. I deliver production-ready AI systems — not prototypes. Let's build something that works.",
+    name: "Could this be you?",
+    title: "Reach out and let's talk",
   },
   {
     quote:
-      "Currently accepting first projects at introductory rates — client testimonials coming soon.",
-    name: "Your name could be here",
-    title: "Future client",
+      "Accepting first projects at special introductory rates. I deliver production-ready AI systems — not prototypes. Let's build something that works.",
+    name: "Could this be you?",
+    title: "Reach out and let's talk",
   },
   {
     quote:
-      "Currently accepting first projects at introductory rates — client testimonials coming soon.",
-    name: "Your name could be here",
-    title: "Future client",
+      "Accepting first projects at special introductory rates. I deliver production-ready AI systems — not prototypes. Let's build something that works.",
+    name: "Could this be you?",
+    title: "Reach out and let's talk",
   },
 ];
 
@@ -141,32 +141,50 @@ export const companies = [
   {
     id: 1,
     name: "Python",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "/python.svg",
+    nameImg: "",
   },
   {
     id: 2,
     name: "Docker",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "/docker.svg",
+    nameImg: "",
   },
   {
     id: 3,
-    name: "LangChain",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "AWS",
+    img: "/amazonaws.svg",
+    nameImg: "",
   },
   {
     id: 4,
     name: "MongoDB",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/mongodb.svg",
+    nameImg: "",
   },
   {
     id: 5,
-    name: "Apache Kafka",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "PyTorch",
+    img: "/pytorch.svg",
+    nameImg: "",
+  },
+  {
+    id: 6,
+    name: "LangChain",
+    img: "/langchain.svg",
+    nameImg: "",
+  },
+  {
+    id: 7,
+    name: "Kafka",
+    img: "/apachekafka.svg",
+    nameImg: "",
+  },
+  {
+    id: 8,
+    name: "Apache Spark",
+    img: "/apachespark.svg",
+    nameImg: "",
   },
 ];
 
