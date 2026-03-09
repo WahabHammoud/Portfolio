@@ -131,7 +131,6 @@ export const BentoGridItem = ({
                   <p key={index}>•{bullet.trim()}</p>
                 ))}
               </div>
-              {img && <img src={img} alt={img} className="w-full h-60 object-contain mt-4" />}
             </>
           ) : (
             <>
@@ -209,7 +208,7 @@ export const BentoGridItem = ({
               />
             </div>
           )}
-          {img && id !== 5 && <img src={img} alt={img} className={imgClassName} />}
+          {img && <img src={img} alt={img} className={imgClassName} />}
         </div>
       </div>
     </div>
