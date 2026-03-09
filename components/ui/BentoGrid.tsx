@@ -127,7 +127,7 @@ export const BentoGridItem = ({
                 {title}
               </div>
               <div className="font-sans text-base text-[#C1C2D3] z-10 flex flex-col gap-3 leading-relaxed">
-                {description.split('•').filter(item => item.trim()).map((bullet, index) => (
+                {typeof description === 'string' && description.split('•').filter(item => item.trim()).map((bullet, index) => (
                   <p key={index}>•{bullet.trim()}</p>
                 ))}
               </div>
