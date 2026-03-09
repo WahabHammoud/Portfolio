@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -76,7 +75,7 @@ export const projects = [
     des: "End-to-end AI platform for inventory management, demand forecasting, risk analytics, and AI copilot. Reduces stockouts and supplier blind spots.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/WahabHammoud/supplymind-ai",
+    link: "https://github.com/WahabHammoud",
   },
   {
     id: 2,
@@ -92,7 +91,7 @@ export const projects = [
     des: "Real-time ML pipeline that predicts industrial equipment failures from IoT sensor data before they happen. Transforms reactive into proactive maintenance.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/WahabHammoud/Predictive-Maintenance-System",
+    link: "https://github.com/WahabHammoud",
   },
   {
     id: 4,
