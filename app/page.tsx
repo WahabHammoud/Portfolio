@@ -44,6 +44,7 @@ const Home = () => {
             ))}
           </div>
         </section>
+        <Clients />
         <Experience />
         <Approach />
         <Footer />
