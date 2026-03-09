@@ -39,7 +39,7 @@ export const gridItems = [
   {
     id: 4,
     title: "I speak your language",
-    description: "Arabic (Native) · French (Professional) · English (Fluent)",
+    description: "• Arabic (Native)\n• French (Professional)\n• English (Fluent)",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
